@@ -1,0 +1,5 @@
+@include('assignment.layout.header')
+@include('assignment.layout.sidebar')
+@include('assignment.layout.topbar')
+@yield('content')
+@include('assignment.layout.footer')
